@@ -15,7 +15,7 @@ import pandas as pd
 
 #import data
 def import_dataset(file_path):
-    data = pd.read_excel(file_path, engine='xlrd')
+    data = pd.read_excel(file_path, engine='openpyxl')
     return data
 
 
