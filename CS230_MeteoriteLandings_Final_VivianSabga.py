@@ -15,9 +15,9 @@ import pandas as pd
 
 
 #import data
-#def import_dataset(file_path):
- #   data = pd.read_excel(file_path, engine='openpyxl')
- #   return data
+def import_dataset(file_path):
+    data = pd.read_excel(file_path, engine='openpyxl')
+    return data
 
 #file_path = "Meteroite_Landings.xlsx"
 #data = pd.read_excel(file_path)
