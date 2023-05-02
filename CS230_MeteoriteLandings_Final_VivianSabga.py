@@ -15,10 +15,12 @@ import pandas as pd
 
 
 #import data
-def import_dataset(file_path):
-    data = pd.read_excel(file_path, engine='openpyxl')
-    return data
+#def import_dataset(file_path):
+ #   data = pd.read_excel(file_path, engine='openpyxl')
+ #   return data
 
+file_path = "Meteroite_Landings.xlsx"
+data = pd.read_excel(file_path)
 
 # filter through data frame based on specified meteorite class and select top n rows based on mass.
 def filter_data_by_class_and_top_n_heaviest(data, meteorite_class, top_n):
