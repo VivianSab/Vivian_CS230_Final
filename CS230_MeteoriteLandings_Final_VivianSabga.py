@@ -57,8 +57,8 @@ def plot_meteorites_per_year(filtered_data):
     st.pyplot(plt.gcf())
 
 
-file_path = "Meteorite_Landings.xlsx"
-data = import_dataset(file_path)
+#file_path = "Meteorite_Landings.xlsx"
+#data = import_dataset(file_path)
 
 # converting the data in the year column to numeric data
 # Replaces value with NaN (not a number) if error occurs
