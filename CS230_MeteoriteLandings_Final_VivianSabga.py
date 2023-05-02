@@ -9,8 +9,9 @@ followed by a graph of this data."""
 
 import streamlit as st
 import pandas as pd
-#import matplotlib.pyplot as plt
-#import matplotlib.ticker as ticker
+import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
+
 
 
 #import data
@@ -57,8 +58,8 @@ def plot_meteorites_per_year(filtered_data):
     st.pyplot(plt.gcf())
 
 
-#file_path = "Meteorite_Landings.xlsx"
-#data = import_dataset(file_path)
+file_path = "Meteorite_Landings.xlsx"
+data = import_dataset(file_path)
 
 # converting the data in the year column to numeric data
 # Replaces value with NaN (not a number) if error occurs
