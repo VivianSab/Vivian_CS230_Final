@@ -63,7 +63,7 @@ file_path = "Meteorite_Landings.xlsx"
 # converting the data in the year column to numeric data
 # Replaces value with NaN (not a number) if error occurs
 # downcasting data in year to the smallest integer possible
-data['year'] = pd.to_numeric(data['year'], errors='coerce', downcast='integer')
+#data['year'] = pd.to_numeric(data['year'], errors='coerce', downcast='integer')
 
 # removes rows that contain NaN
 data = data.dropna(subset=['year'])
