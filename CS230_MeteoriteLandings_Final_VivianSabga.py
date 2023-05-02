@@ -9,8 +9,8 @@ followed by a graph of this data."""
 
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-import matplotlib.ticker as ticker
+#import matplotlib.pyplot as plt
+#import matplotlib.ticker as ticker
 
 
 
