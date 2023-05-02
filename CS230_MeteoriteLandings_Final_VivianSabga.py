@@ -14,9 +14,9 @@ import pandas as pd
 
 
 #import data
-#def import_dataset(file_path):
-    #data = pd.read_excel(file_path, engine='openpyxl')
-    #return data
+def import_dataset(file_path):
+    data = pd.read_excel(file_path, engine='openpyxl')
+    return data
 
 
 # filter through data frame based on specified meteorite class and select top n rows based on mass.
