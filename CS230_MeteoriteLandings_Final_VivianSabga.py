@@ -66,7 +66,7 @@ file_path = "Meteorite_Landings.xlsx"
 #data['year'] = pd.to_numeric(data['year'], errors='coerce', downcast='integer')
 
 # removes rows that contain NaN
-data = data.dropna(subset=['year'])
+#data = data.dropna(subset=['year'])
 
 st.title("Meteorite Landings")
 
