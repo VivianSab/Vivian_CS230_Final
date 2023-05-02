@@ -11,11 +11,11 @@ import streamlit as st
 import pandas as pd
 #import matplotlib.pyplot as plt
 #import matplotlib.ticker as ticker
-import openpyxl 
+
 
 #import data
 def import_dataset(file_path):
-    data = pd.read_excel(file_path, engine='openpyxl')
+    data = pd.read_excel(file_path, engine='xlrd')
     return data
 
 
