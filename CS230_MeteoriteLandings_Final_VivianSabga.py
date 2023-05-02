@@ -14,9 +14,9 @@ import pandas as pd
 
 
 #import data
-def import_dataset(file_path):
-    data = pd.read_excel(file_path, engine='openpyxl')
-    return data
+#def import_dataset(file_path):
+#    data = pd.read_excel(file_path, engine='openpyxl')
+ #   return data
 
 
 # filter through data frame based on specified meteorite class and select top n rows based on mass.
@@ -58,7 +58,7 @@ def plot_meteorites_per_year(filtered_data):
 
 
 file_path = "Meteorite_Landings.xlsx"
-data = import_dataset(file_path)
+#data = import_dataset(file_path)
 
 # converting the data in the year column to numeric data
 # Replaces value with NaN (not a number) if error occurs
