@@ -132,7 +132,7 @@ import pandas as pd
 #import matplotlib.pyplot as plt
 #import matplotlib.ticker as ticker
 
-!pip install openpyxl
+pip install openpyxl
 
 
 
