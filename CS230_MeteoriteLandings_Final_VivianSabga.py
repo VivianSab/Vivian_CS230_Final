@@ -126,4 +126,4 @@ if st.button("Show Top N Heaviest Meteorites of a Certain Class"):
     # plots the heaviest meteorites in class selected
     st.header("Chart of Heaviest Meteorites in Selected Class")
     plot_heaviest_meteorites(filtered_data)
-    print(filtered_data)
+    
