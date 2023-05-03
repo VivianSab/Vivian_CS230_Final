@@ -132,7 +132,8 @@ import pandas as pd
 #import matplotlib.pyplot as plt
 #import matplotlib.ticker as ticker
 
-openpyxl 
+openpyxl==3.0.7
+
 
 
 #import data
